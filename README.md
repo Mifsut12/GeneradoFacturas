@@ -15,4 +15,6 @@ Permite la generación de la factura
 
 ## Futuras mejoras
 -Implementar una funcionalidad de envio por correo
+
+
 -Implementar una funcionalidad que permite el borrado de conceptos individualmente
