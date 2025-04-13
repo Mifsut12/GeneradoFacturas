@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de facturas</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <script src="./js/js.js" defer></script>
+</head>
+<body>
+    <h1 id="h1">Generador de factura</h1>
+
+    <h2 id="h2">Introducir los datos de la factura</h2>
+
+    <main id="main">
+
+        <form onsubmit="return false" id="form">
+            
+            <input type="text" name="concepto"  placeholder="Concepto">
+            <input type="number" name="cuantia"  step=".01" min="0" placeholder="Cuantia (€)">
+           
+            
+        </form>
+
+
+        <button id = "main-button-añadir">Añadir concepto</button>
+        <button id = "main-button-generar">Generar factura</button>
+        <button id = "main-button-reiniciar">Reiniciar factura</button>
+
+        <span id = "total">
+
+        </span>
+    </main>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+/* Cálculo de pixeles más preciso */
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+/* Alinear la información al centro */
+html{
+    text-align: center;
+}
+
+/* Distinguir el formulario de los demas */
+form{
+    border: thin solid black;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input[type = "number"]{
+    margin: 1vh 1vw;
+   
+    
+}
+
+form input{
+    width: 45%;
+}
+
+/* Los botones apareceran en columna */
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    border-radius: 20%;
+    padding: 1vw;
+}
+
+/* Aplicar responsive para dispositivos moviles */
+@media screen and (min-width: 200px) and (max-width: 610px){
+
+    /* Alinear los botones */
+
+    button{
+        display: inline;
+        margin-right: 1vw;
+    }
+
+    form input{
+        
+        width: 18vw;
+    }
+}
